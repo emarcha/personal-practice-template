@@ -1,4 +1,4 @@
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   // Pass through static assets
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
   eleventyConfig.addPassthroughCopy({ "src/js": "js" });
@@ -27,4 +27,4 @@ module.exports = function (eleventyConfig) {
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
   };
-};
+}
