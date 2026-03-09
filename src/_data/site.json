@@ -1,0 +1,89 @@
+{
+  "name": "Your Practice Name",
+  "tagline": "Your Tagline Here",
+  "phone": "(000) 000-0000",
+  "email": "hello@yourpractice.com",
+  "address": {
+    "street": "123 Your Street, Suite 000",
+    "city": "Your City",
+    "state": "ST",
+    "zip": "00000"
+  },
+  "hours": "Monday – Thursday: 8:00am – 5:00pm | Friday: 8:00am – 1:00pm",
+  "description": "Your practice description goes here. Share your mission, values, and what makes your practice unique.",
+  "heroSubtitle": "Your hero subtitle goes here — a brief, welcoming statement about your approach to care.",
+  "about": {
+    "headline": "Your About Headline",
+    "text": "Your about section text goes here. Describe your practice philosophy, approach, and what patients can expect when they work with you.",
+    "philosophy": "Your care philosophy statement goes here."
+  },
+  "services": [
+    {
+      "title": "Service Title One",
+      "icon": "brain",
+      "description": "A brief description of this service and what patients can expect.",
+      "details": ["Detail one", "Detail two", "Detail three", "Detail four"]
+    },
+    {
+      "title": "Service Title Two",
+      "icon": "focus",
+      "description": "A brief description of this service and what patients can expect.",
+      "details": ["Detail one", "Detail two", "Detail three", "Detail four"]
+    },
+    {
+      "title": "Service Title Three",
+      "icon": "person",
+      "description": "A brief description of this service and what patients can expect.",
+      "details": ["Detail one", "Detail two", "Detail three", "Detail four"]
+    },
+    {
+      "title": "Service Title Four",
+      "icon": "collaborate",
+      "description": "A brief description of this service and what patients can expect.",
+      "details": ["Detail one", "Detail two", "Detail three", "Detail four"]
+    }
+  ],
+  "provider": {
+    "name": "Dr. First Last, Psy.D.",
+    "title": "Licensed Clinical Neuropsychologist",
+    "bio": "Your bio goes here. Include your training background, areas of expertise, and what drives your passion for this work.",
+    "credentials": ["Degree and Institution", "Fellowship or Internship", "State License", "Professional Memberships"]
+  },
+  "insurance": {
+    "headline": "Insurance & Billing",
+    "text": "Your insurance and billing information goes here. Include details about in-network plans and out-of-network options.",
+    "providers": ["Insurance Provider One", "Insurance Provider Two", "Insurance Provider Three", "Insurance Provider Four"]
+  },
+  "testimonials": [
+    {
+      "quote": "Patient testimonial goes here.",
+      "author": "— Patient"
+    },
+    {
+      "quote": "Patient testimonial goes here.",
+      "author": "— Patient"
+    },
+    {
+      "quote": "Patient testimonial goes here.",
+      "author": "— Patient"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Frequently asked question one?",
+      "answer": "Your answer to this question goes here."
+    },
+    {
+      "question": "Frequently asked question two?",
+      "answer": "Your answer to this question goes here."
+    },
+    {
+      "question": "Frequently asked question three?",
+      "answer": "Your answer to this question goes here."
+    },
+    {
+      "question": "Frequently asked question four?",
+      "answer": "Your answer to this question goes here."
+    }
+  ]
+}

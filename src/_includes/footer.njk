@@ -1,0 +1,40 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="/" class="footer-logo">
+        <span class="logo-mark">✦</span>
+        <span class="logo-text">{{ site.name }}</span>
+      </a>
+      <p class="footer-tagline">{{ site.tagline }}</p>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p><a href="tel:{{ site.phone | replace('(', '') | replace(')', '') | replace(' ', '') | replace('-', '') }}">{{ site.phone }}</a></p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p>{{ site.address.street }}<br>{{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}</p>
+    </div>
+
+    <div class="footer-hours">
+      <h4>Hours</h4>
+      <p>{{ site.hours }}</p>
+    </div>
+
+    <div class="footer-nav">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#provider">Our Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; {{ "" | date("Y") }} {{ site.name }}. All rights reserved.</p>
+    <p class="footer-legal">
+      <a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a>
+    </p>
+  </div>
+</footer>
