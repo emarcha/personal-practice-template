@@ -1,9 +1,9 @@
 module.exports = function (eleventyConfig) {
-  // Pass through static assets
-  eleventyConfig.addPassthroughCopy("src/css");
-  eleventyConfig.addPassthroughCopy("src/js");
-  eleventyConfig.addPassthroughCopy("src/images");
-  eleventyConfig.addPassthroughCopy("src/fonts");
+  // Pass through static assets (paths relative to input dir)
+  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("js");
+  eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy("fonts");
 
   // Custom filters
   eleventyConfig.addFilter("date", function (value, format) {
